@@ -24,3 +24,6 @@ public int Sumar(int a, int b)
 {
     return a + b;
 }
+
+### Comentarios en el Código
+Usa comentarios para explicar partes complejas del código, pero evita comentarios innecesarios.
