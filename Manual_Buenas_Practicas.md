@@ -169,12 +169,15 @@ public class RepositorioCliente : IRepositorioCliente
 ### Ejemplo:
 
 ```csharp
-/// &lt;summary&gt;
+/// <summary>
 /// Calcula el área de un rectángulo.
-/// &lt;/summary&gt;
-/// &lt;param name="ancho"&gt;Ancho del rectángulo.&lt;/param&gt;
-/// &lt;param name="alto"&gt;Altura del rectángulo.&lt;/param&gt;
-/// &lt;returns&gt;El área calculada.&lt;/returns&gt;
+/// </summary>
+/// <param name="ancho">Ancho del rectángulo.</param>
+/// <param name="alto">Alto del rectángulo.</param>
+/// <returns>El área calculada.</returns>
+/// <exception cref="ArgumentException">
+/// Se lanza si el ancho o el alto son menores o iguales a cero.
+/// </exception>
 public double CalcularArea(double ancho, double alto)
 {
     if (ancho &lt;= 0 || alto &lt;= 0)
