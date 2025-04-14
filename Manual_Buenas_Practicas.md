@@ -223,20 +223,20 @@ using System.IO;
 
 namespace MiAplicacion.Servicios
 {
-    /// &lt;summary&gt;
+    /// <summary>
     /// Servicio para realizar cálculos matemáticos.
-    /// &lt;/summary&gt;
+    /// </summary>
     public class CalculadoraService
     {
-        /// &lt;summary&gt;
+        /// <summary>
         /// Calcula el área de un rectángulo.
-        /// &lt;/summary&gt;
-        /// &lt;param name="ancho"&gt;Ancho del rectángulo.&lt;/param&gt;
-        /// &lt;param name="alto"&gt;Alto del rectángulo.&lt;/param&gt;
-        /// &lt;returns&gt;El área calculada.&lt;/returns&gt;
-        /// &lt;exception cref="ArgumentException"&gt;
+        /// </summary>
+        /// <param name="ancho">Ancho del rectángulo.</param>
+        /// <param name="alto">Alto del rectángulo.</param>
+        /// <returns>El área calculada.</returns>
+        /// <exception cref="ArgumentException">
         /// Se lanza si el ancho o el alto son menores o iguales a cero.
-        /// &lt;/exception&gt;
+        /// </exception>
         public double CalcularArea(double ancho, double alto)
         {
             if (ancho &lt;= 0 || alto &lt;= 0)
@@ -247,10 +247,10 @@ namespace MiAplicacion.Servicios
             return ancho * alto;
         }
 
-        /// &lt;summary&gt;
+        /// <summary>
         /// Procesa un archivo y muestra su contenido.
-        /// &lt;/summary&gt;
-        /// &lt;param name="rutaArchivo"&gt;Ruta completa del archivo.&lt;/param&gt;
+        /// </summary>
+        /// <param name="rutaArchivo">Ruta completa del archivo.</param>
         public void ProcesarArchivo(string rutaArchivo)
         {
             try
