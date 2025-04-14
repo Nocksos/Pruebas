@@ -61,20 +61,20 @@ public class Cliente
 ### Ejemplo Completo:
 
 ```csharp
-/// &lt;summary&gt;
+/// <summary>
 /// Clase que representa un cliente.
-/// &lt;/summary&gt;
+/// </summary>
 public class Cliente
 {
-    /// &lt;summary&gt;
+    /// <summary>
     /// Nombre del cliente.
-    /// &lt;/summary&gt;
+    /// </summary>
     public string NombreCliente { get; set; }
 
-    /// &lt;summary&gt;
+    /// <summary>
     /// Obtiene la información completa del cliente.
-    /// &lt;/summary&gt;
-    /// &lt;returns&gt;Una cadena con la información del cliente.&lt;/returns&gt;
+    /// </summary>
+    /// <returns>Una cadena con la información del cliente.</returns>
     public string ObtenerInformacion()
     {
         return $"Cliente: {NombreCliente}";
